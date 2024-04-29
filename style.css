@@ -1,0 +1,744 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200; 1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+
+body{
+    font-family: 'Poppins', Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+header{
+    width: 100vw;
+}
+
+header div.top {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    background-image: url(./img/2149149651.jpg);
+    /* background-position: bottom; */
+    background-repeat: no-repeat;
+    background-size: 100% 470px;
+}
+
+header div.top h1 {
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 15%;
+    top: 35%;
+    font-size: 4rem;
+    width: 365px;
+}
+
+
+
+header div.center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f9f5f0;
+    width: 100%;
+    height: 100%;
+    gap: 25px;
+    justify-content: space-evenly;
+    padding-bottom: 15px;
+}
+
+header div.center .title h2 {
+    width: 90%;
+    text-align: center;
+    font-size: 1.35rem;
+    margin: 20px 0 10px 0;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+header div.center .h2 {
+    margin: 10px 0;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin: 10px;
+    font-size: 1.4rem;
+}
+
+header div.center .h2{
+    margin: 10px 0;
+}
+
+
+header div.center .options {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+header div.center .options .material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 35px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    margin-left: 10px;
+}
+
+header div.center .options div {
+    width: 23%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    height: 65px;
+    text-align: center;
+}
+
+header div.center .options div p{
+    padding: 0px 10px 0 10px;
+    
+
+}
+
+header div.center .options div div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 280px;
+    gap: 5px;
+
+}
+
+header div.center .options div div p{
+    margin: 0;
+}
+
+header div.center .options div div p:first-child{
+    padding: 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+header div.center .options div div p:last-child{
+    padding: 0;
+    font-size: 0.75rem;
+}
+
+header div.center .mejores{
+    margin: 0;
+    font-size: 2rem;
+}
+
+header div.center .categorias {
+    display: flex;
+    gap: 10px;
+    color: #fff;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+}
+
+header div.center .categorias div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    height: 140px;
+    background-color: grey; 
+    border-radius: 15px;
+}
+
+header div.center .categorias div h2{
+    padding-top: 20px;
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+header div.center .categorias div p{
+    font-size: 0.75rem;
+    margin: 0;
+    width: 300px;
+}
+
+header div.center .categorias div div{
+    gap: 10px;
+    text-align: center;
+}
+
+header div.bottom {
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    background-image: url(./img/piePag.png);
+    /* background-position: bottom; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+/* ============= MEDIA QUERIES ============= */
+
+
+/* ============= laptop l ============= */
+@media screen and (max-width: 1440px){
+
+    header{
+        width: 100vw;
+    }
+    
+    header div.top {
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        background-image: url(./img/2149149651.jpg);
+        /* background-position: bottom; */
+        background-repeat: no-repeat;
+        background-size: 100% 470px;
+    }
+    
+    header div.top h1 {
+        color: #fff;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        left: 15%;
+        top: 35%;
+        font-size: 4rem;
+        width: 365px;
+    }
+    
+    
+    
+    header div.center {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: #f9f5f0;
+        width: 100%;
+        height: 100%;
+        gap: 25px;
+        justify-content: space-evenly;
+        padding-bottom: 15px;
+    }
+    
+    header div.center .title h2 {
+        width: 90%;
+        text-align: center;
+        font-size: 1.35rem;
+        margin: 20px 0 10px 0;
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+    header div.center .h2 {
+        margin: 10px 0;
+        width: 90%;
+        text-align: center;
+        margin: auto;
+        margin: 10px;
+        font-size: 1.4rem;
+    }
+    
+    header div.center .h2{
+        margin: 10px 0;
+    }
+    
+    
+    header div.center .options {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    header div.center .options .material-symbols-outlined {
+        font-family: 'Material Symbols Outlined';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 35px;
+        line-height: 1;
+        letter-spacing: normal;
+        text-transform: none;
+        display: inline-block;
+        white-space: nowrap;
+        word-wrap: normal;
+        direction: ltr;
+        -webkit-font-feature-settings: 'liga';
+        -webkit-font-smoothing: antialiased;
+        margin-left: 10px;
+    }
+    
+    header div.center .options div {
+        width: 23%;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        height: 65px;
+        text-align: center;
+    }
+    
+    header div.center .options div p{
+        padding: 0px 10px 0 10px;
+        
+    
+    }
+    
+    header div.center .options div div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 280px;
+        gap: 5px;
+    
+    }
+    
+    header div.center .options div div p{
+        margin: 0;
+    }
+    
+    header div.center .options div div p:first-child{
+        padding: 0;
+        text-align: center;
+        font-size: 0.9rem;
+    }
+    
+    header div.center .options div div p:last-child{
+        padding: 0;
+        font-size: 0.75rem;
+    }
+    
+    header div.center .mejores{
+        margin: 0;
+        font-size: 2rem;
+    }
+    
+    header div.center .categorias {
+        display: flex;
+        gap: 10px;
+        color: #fff;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    header div.center .categorias div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 30%;
+        height: 140px;
+        background-color: grey; 
+        border-radius: 15px;
+    }
+    
+    header div.center .categorias div h2{
+        padding-top: 20px;
+        margin: 0;
+        font-size: 1.1rem;
+    }
+    
+    header div.center .categorias div p{
+        font-size: 0.75rem;
+        margin: 0;
+        width: 300px;
+    }
+    
+    header div.center .categorias div div{
+        gap: 10px;
+        text-align: center;
+    }
+    
+    header div.bottom {
+        position: relative;
+        width: 100%;
+        height: 30vh;
+        background-image: url(./img/piePag.png);
+        /* background-position: bottom; */
+        background-repeat: no-repeat;
+        background-size: 100% 270px;
+    }
+
+
+}
+
+
+
+
+
+/* ============= laptop ============= */
+@media screen and (max-width: 1024px){
+
+
+    header div.top {
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        background-image: url(./img/2149149651.jpg);
+        /* background-position: bottom; */
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    header div.top h1 {
+        color: #fff;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        left: 10%;
+        top: 35%;
+        font-size: 3rem;
+        width: 275px;
+    }
+
+
+    header div.center {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: #f9f5f0;
+        width: 100%;
+        height: 100%;
+        gap: 25px;
+        justify-content: space-evenly;
+        padding-bottom: 15px;
+    }
+
+    header div.center .h2 {
+        margin: 10px 0;
+        width: 90%;
+        text-align: center;
+        margin: auto;
+        margin: 10px;
+        font-size: 1.4rem;
+    }
+
+
+    header div.center .title h2 {
+        width: 90%;
+        text-align: center;
+        font-size: 1.35rem;
+        margin: 20px 0 10px 0;
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    header div.center .options {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    header div.center .options div {
+        width: 245px;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        height: 65px;
+        text-align: center;
+    }
+
+    header div.center .categorias {
+        display: flex;
+        gap: 10px;
+        color: #fff;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    header div.center .categorias div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 370px;
+        height: 140px;
+        background-color: grey; 
+        border-radius: 15px;
+    }
+
+    header div.bottom {
+        position: relative;
+        width: 100%;
+        height: 30vh;
+        background-image: url(./img/piePag.png);
+        /* background-position: bottom; */
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    
+
+
+}
+
+
+
+/* ============= TABLET ============= */
+@media screen and (max-width: 768px){
+
+
+    header div.top {
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        background-image: url(./img/2149149651.jpg);
+        /* background-position: bottom; */
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    header div.top h1 {
+        color: #fff;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        left: 10%;
+        top: 35%;
+        font-size: 2.5rem;
+        width: 258px;
+    }
+
+
+    header div.center {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: #f9f5f0;
+        width: 100%;
+        height: 100%;
+        gap: 25px;
+        justify-content: space-evenly;
+        padding-bottom: 15px;
+    }
+
+    header div.center .h2 {
+        margin: 10px 0;
+        width: 90%;
+        text-align: center;
+        margin: auto;
+        margin: 10px;
+        font-size: 1.4rem;
+    }
+
+
+    header div.center .title h2 {
+        width: 90%;
+        text-align: center;
+        font-size: 1.35rem;
+        margin: 20px 0 10px 0;
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    header div.center .options {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    header div.center .options div {
+        width: 250px;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        height: 65px;
+        text-align: center;
+    }
+
+    header div.bottom {
+        position: relative;
+        width: 100%;
+        height: 30vh;
+        background-image: url(./img/piePag.png);
+        /* background-position: bottom; */
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+
+}
+
+
+/* ============= phone l ============= */
+@media screen and (max-width: 425px){
+
+    header div.top {
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        background-image: url(./img/2149149651.jpg);
+        /* background-position: bottom; */
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    header div.top h1 {
+        color: #fff;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        left: 10%;
+        top: 40%;
+        font-size: 2rem;
+        width: 200px;
+    }
+
+    header div.center {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: #f9f5f0;
+        width: 100%;
+        height: 100%;
+        gap: 25px;
+        justify-content: space-evenly;
+        padding-bottom: 15px;
+    }
+
+    header div.center .title h2 {
+        width: 90%;
+        text-align: center;
+        font-size: 1.1rem;
+        margin: 20px 0 10px 0;
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    header div.center .options div {
+        width: 85%;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        height: 65px;
+        text-align: center;
+    }
+
+    header div.center .categorias div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 85%;
+        height: 140px;
+        background-color: grey;
+        border-radius: 15px;
+    }
+
+    header div.center .h2 {
+        margin: 10px 0;
+        width: 90%;
+        text-align: center;
+        margin: auto;
+        margin: 10px;
+        font-size: 1.4rem;
+    }
+    
+    header div.center .mejores {
+        margin: 0;
+        font-size: 1.4rem;
+    }
+
+    header div.bottom {
+        position: relative;
+        width: 100%;
+        height: 30vh;
+        background-image: url(./img/piePag.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+
+}
+
+/* ============= phone m ============= */
+@media screen and (max-width: 375px){
+
+    header div.top {
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        background-image: url(./img/2149149651.jpg);
+        /* background-position: bottom; */
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    header div.top h1 {
+        color: #fff;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        left: 10%;
+        top: 40%;
+        font-size: 2rem;
+        width: 200px;
+    }
+
+    header div.bottom {
+        position: relative;
+        width: 100%;
+        height: 30vh;
+        background-image: url(./img/piePag.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+
+}
