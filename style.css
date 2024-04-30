@@ -256,7 +256,7 @@ header div.bottom {
     }
     
     header div.center .title h2 {
-        width: 90%;
+        width: 95%;
         text-align: center;
         font-size: 1.35rem;
         margin: 20px 0 10px 0;
@@ -372,21 +372,25 @@ header div.bottom {
         border-radius: 15px;
     }
     
-    header div.center .categorias div h2{
+    header div.center .categorias div h2 {
         padding-top: 20px;
         margin: 0;
         font-size: 1.1rem;
+        width: 80%;
+        text-align: center;
     }
     
-    header div.center .categorias div p{
+    header div.center .categorias div p {
         font-size: 0.75rem;
         margin: 0;
-        width: 300px;
+        width: 90%;
+        text-align: center;
     }
     
     header div.center .categorias div div{
         gap: 10px;
         text-align: center;
+        width: 100%;
     }
     
     header div.bottom {
@@ -481,6 +485,11 @@ header div.bottom {
         border-radius: 15px;
         height: 65px;
         text-align: center;
+    }
+
+    header div.center .options div div p:last-child {
+        padding: 0;
+        font-size: 0.7rem;
     }
 
     header div.center .categorias {
@@ -658,7 +667,7 @@ header div.bottom {
     }
 
     header div.center .options div {
-        width: 85%;
+        width: 90%;
         background-color: #fff;
         display: flex;
         align-items: center;
@@ -673,10 +682,18 @@ header div.bottom {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        width: 85%;
+        width: 90%;
         height: 140px;
         background-color: grey;
         border-radius: 15px;
+    }
+
+    header div.center .categorias div h2 {
+        padding-top: 20px;
+        margin: 0;
+        font-size: 1.1rem;
+        width: 90%;
+        text-align: center;
     }
 
     header div.center .h2 {
